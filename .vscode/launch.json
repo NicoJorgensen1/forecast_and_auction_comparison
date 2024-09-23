@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {   
+            "name": "compare_forecasts_and_auction_prices",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "compare_forecasts_and_auction_prices.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false,
+            "args": [
+                "--forecast_df_path",       "IBForecastNoScenariosDK.csv",
+                "--auction_dir",            "${workspaceFolder}",
+                "--save_dir",               "${workspaceFolder}${pathSeparator}results_dir",
+            ]
+        },
+    ],
+}

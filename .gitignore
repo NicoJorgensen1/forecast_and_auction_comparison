@@ -1,0 +1,10 @@
+# Put files to ignore in the version history here --> eg all auction and forecast files
+DK1
+DK2
+IBForecastNoScenariosDK.csv
+
+# Ignore all the result files 
+results_dir
+
+# Ignore all __pycache__ directories
+*__pycache__*
